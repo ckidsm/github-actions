@@ -1,13 +1,9 @@
 name: push-workflow
-
 on:
-  push:
-    branches:
-      - dev
 
 jobs:
   push-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello
-        run: echo "Hello, world!"
+      - name: step1
+        run: echo Hello world!
